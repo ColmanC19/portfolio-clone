@@ -16,6 +16,10 @@ img {
 	height: auto;
 }
 
+.HeaderName{
+	color: #00ff6c;;
+}
+
 .container {
 	width: 95%;
 	max-width: 70em;
