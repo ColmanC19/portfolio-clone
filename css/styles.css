@@ -17,8 +17,79 @@ img {
 }
 
 .HeaderName{
-	color: #00ff6c;;
+	color: #00ff6c;
 }
+.HeaderName{
+  position: relative;
+}
+
+.HeaderName:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+
+.HeaderName:hover:after{
+  width: 100%;
+  left: 0;
+  background: #fff;
+}
+
+/* HeaderMenu */
+ul{
+	display: inline-block;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+
+}
+
+li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.link{
+  position: relative;
+}
+
+.link:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+
+.link:hover:after{
+  width: 100%;
+  left: 0;
+  background: #fff;
+}
+
+
+/*END OF CODE*/
+
+
+
+
 
 .container {
 	width: 95%;
